@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VÉRA | Tienda de Moda</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./stule.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+
+    <a href="#inicio" class="logo">
+        <span>VÉRA</span>
+        <small>ESTUDIO DE MODA</small>
+    </a>
+
+    <nav id="navMenu">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Quiénes Somos</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="header-right">
+
+        <button class="search-btn" id="searchBtn">
+            Buscar
+        </button>
+
+        <button class="bag">
+            ♡ <span id="cartCount">0</span>
+        </button>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+    </div>
+
+</header>
+
+
+<!-- INICIO -->
+
+<section class="hero" id="inicio">
+
+    <div class="hero-photo">
+
+        <img
+            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1800&q=85"
+            alt="Tienda de ropa"
+        >
+
+    </div>
+
+    <div class="hero-content">
+
+        <span>NUEVA TEMPORADA · 2026</span>
+
+        <h1>
+            Viste tu
+            <em>esencia.</em>
+        </h1>
+
+        <p>
+            Prendas pensadas para acompañar tu estilo,
+            tus planes y cada una de tus historias.
+        </p>
+
+        <a href="#productos" class="hero-btn">
+            Descubrir colección
+        </a>
+
+    </div>
+
+    <div class="hero-side">
+        <span>01</span>
+        <div></div>
+        <span>06</span>
+    </div>
+
+</section>
+
+
+<!-- QUIÉNES SOMOS -->
+
+<section class="about" id="nosotros">
+
+    <div class="about-number">
+        01
+    </div>
+
+    <div class="about-title">
+
+        <span>QUIÉNES SOMOS</span>
+
+        <h2>
+            La moda también
+            <em>habla de ti.</em>
+        </h2>
+
+    </div>
+
+    <div class="about-text">
+
+        <p>
+            VÉRA es una tienda de moda creada para quienes buscan
+            prendas actuales, cómodas y con personalidad.
+        </p>
+
+        <p>
+            Nuestra colección combina piezas versátiles con diseños
+            pensados para diferentes estilos y ocasiones.
+        </p>
+
+        <div class="about-line"></div>
+
+        <div class="about-data">
+
+            <div>
+                <strong>+80</strong>
+                <span>Prendas</span>
+            </div>
+
+            <div>
+                <strong>04</strong>
+                <span>Colecciones</span>
+            </div>
+
+            <div>
+                <strong>24/7</strong>
+                <span>Inspiración</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PORTAFOLIO -->
+
+<section class="portfolio" id="portafolio">
+
+    <div class="portfolio-heading">
+
+        <div>
+            <span>02 — PORTAFOLIO</span>
+
+            <h2>
+                Encuentra tu
+                <em>estilo.</em>
+            </h2>
+        </div>
+
+        <p>
+            Explora nuestras diferentes líneas y encuentra
+            prendas para cada momento.
+        </p>
+
+    </div>
+
+
+    <div class="collections">
+
+        <article class="collection collection-large">
+
+            <img
+                src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1300&q=85"
+                alt="Colección femenina"
+            >
+
+            <div class="collection-info">
+                <small>01</small>
+                <h3>Esencia</h3>
+                <span>Prendas femeninas</span>
+            </div>
+
+        </article>
+
+
+        <article class="collection">
+
+            <img
+                src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=85"
+                alt="Moda casual"
+            >
+
+            <div class="collection-info">
+                <small>02</small>
+                <h3>Casual</h3>
+                <span>Para todos los días</span>
+            </div>
+
+        </article>
+
+
+        <article class="collection">
+
+            <img
+                src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=85"
+                alt="Ropa elegante"
+            >
+
+            <div class="collection-info">
+                <small>03</small>
+                <h3>Atelier</h3>
+                <span>Momentos especiales</span>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCTOS -->
+
+<section class="products" id="productos">
+
+    <div class="products-title">
+
+        <span>03 — PRODUCTOS</span>
+
+        <h2>
+            Piezas que
+            <em>quieres llevar.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="filters">
+
+        <button class="filter active" data-category="todos">
+            Todos
+        </button>
+
+        <button class="filter" data-category="camisas">
+            Camisas
+        </button>
+
+        <button class="filter" data-category="vestidos">
+            Vestidos
+        </button>
+
+        <button class="filter" data-category="pantalones">
+            Pantalones
+        </button>
+
+        <button class="filter" data-category="chaquetas">
+            Chaquetas
+        </button>
+
+    </div>
+
+
+    <div class="product-grid">
+
+
+        <!-- PRODUCTO 1 -->
+
+        <article class="product" data-category="vestidos">
+
+            <div class="product-photo">
+
+                <span>NUEVO</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=85"
+                    alt="Vestido"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>VESTIDOS</small>
+
+                <h3>Vestido Aura</h3>
+
+                <p>Diseño ligero y elegante.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$89.900</strong>
+
+                    <button class="add-btn">
+                        Añadir ♡
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 2 -->
+
+        <article class="product" data-category="camisas">
+
+            <div class="product-photo">
+
+                <img
+                    src="https://images.unsplash.com/photo-1605763240000-7e93b172d754?auto=format&fit=crop&w=900&q=85"
+                    alt="Camisa blanca"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>CAMISAS</small>
+
+                <h3>Camisa Nube</h3>
+
+                <p>Básica, cómoda y versátil.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$59.900</strong>
+
+                    <button class="add-btn">
+                        Añadir ♡
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 3 -->
+
+        <article class="product" data-category="pantalones">
+
+            <div class="product-photo">
+
+                <span>FAVORITO</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=85"
+                    alt="Pantalón de mezclilla"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>PANTALONES</small>
+
+                <h3>Denim Classic</h3>
+
+                <p>Un básico para combinar.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$79.900</strong>
+
+                    <button class="add-btn">
+                        Añadir ♡
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 4 -->
+
+        <article class="product" data-category="chaquetas">
+
+            <div class="product-photo">
+
+                <span>NUEVO</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=85"
+                    alt="Chaqueta"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>CHAQUETAS</small>
+
+                <h3>Urban Jacket</h3>
+
+                <p>Un toque moderno para tu look.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$119.900</strong>
+
+                    <button class="add-btn">
+                        Añadir ♡
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 5 -->
+
+        <article class="product" data-category="camisas">
+
+            <div class="product-photo">
+
+                <img
+                    src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=900&q=85"
+                    alt="Camisa de moda"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>CAMISAS</small>
+
+                <h3>Blusa Siena</h3>
+
+                <p>Detalle sencillo y elegante.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$64.900</strong>
+
+                    <button class="add-btn">
+                        Añadir ♡
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 6 -->
+
+        <article class="product" data-category="vestidos">
+
+            <div class="product-photo">
+
+                <img
+                    src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=85"
+                    alt="Vestido elegante"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>VESTIDOS</small>
+
+                <h3>Vestido Roma</h3>
+
+                <p>Una pieza para destacar.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$109.900</strong>
+
+                    <button class="add-btn">
+                        Añadir ♡
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- FRASE -->
+
+<section class="fashion-banner">
+
+    <img
+        src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1800&q=85"
+        alt="Interior de tienda de ropa"
+    >
+
+    <div class="fashion-overlay"></div>
+
+    <div class="fashion-content">
+
+        <span>VÉRA · ESTUDIO DE MODA</span>
+
+        <h2>
+            Tu estilo no necesita
+            <em>permiso.</em>
+        </h2>
+
+        <p>
+            Usa lo que te haga sentir tú.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACTO -->
+
+<section class="contact" id="contacto">
+
+    <div class="contact-text">
+
+        <span>04 — CONTACTO</span>
+
+        <h2>
+            Hablemos de
+            <em>moda.</em>
+        </h2>
+
+        <p>
+            ¿Tienes alguna pregunta sobre nuestros productos,
+            tallas o colecciones? Escríbenos.
+        </p>
+
+        <div class="contact-info">
+
+            <div>
+                <strong>📍 Tienda</strong>
+                <span>Neiva, Huila, Colombia</span>
+            </div>
+
+            <div>
+                <strong>✉ Correo</strong>
+                <span>hola@veramoda.com</span>
+            </div>
+
+            <div>
+                <strong>☎ WhatsApp</strong>
+                <span>+57 300 000 0000</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <form id="contactForm">
+
+        <h3>Déjanos un mensaje</h3>
+
+        <input
+            type="text"
+            id="nombre"
+            placeholder="Tu nombre"
+        >
+
+        <input
+            type="email"
+            id="correo"
+            placeholder="Tu correo"
+        >
+
+        <textarea
+            id="mensaje"
+            rows="5"
+            placeholder="¿Qué quieres preguntarnos?"
+        ></textarea>
+
+        <button type="submit">
+            Enviar mensaje →
+        </button>
+
+        <p id="formMessage"></p>
+
+    </form>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-brand">
+        <strong>VÉRA</strong>
+        <span>ESTUDIO DE MODA</span>
+    </div>
+
+    <p>
+        Viste tu esencia.
+    </p>
+
+    <span>
+        © <span id="year"></span> VÉRA
+    </span>
+
+</footer>
+
+
+<script src="./java.js"></script>
+
+</body>
+</html>
